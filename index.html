@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tube</title>
+</head>
+
+<body class="container mx-auto">
+
+    <!-- navbar start  -->
+
+    <nav class="navbar">
+        <div class="logo navbar-start"><img src="./Logo.png" alt=""></div>
+        <div class="navbar-center"><button class="btn bg-[#252525] navbar-center"> Sort by View</button>        </div>
+        <div class="navbar-end">
+            <button class="btn bg-[#FF1F3D] ">Blog</button>
+        </div>
+    </nav>
+    <hr>
+
+    <!-- navbar end  -->
+
+    <!-- blog part start  -->
+
+    <!-- button activity  -->
+
+    <section>
+        <div class="flex gap-4 p-5 items-center justify-center">
+            <button onclick="Data()" class="btn">All</button>
+            <button class="btn">Music</button>
+            <button class="btn">Comedy</button>
+            <button class="btn">Drowing</button>
+        </div>
+        <!-- blog tart start  -->
+        <div class="blog grid lg:grid-cols-4 md:grid-cols-2 grid-col-1 gap-3" id="blog-content">
+            
+        </div>
+       
+    </section>
+
+
+    <!-- blog part end  -->
+
+
+
+    <!-- js start  -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
